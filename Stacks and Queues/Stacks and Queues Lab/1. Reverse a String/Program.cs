@@ -1,12 +1,13 @@
-﻿using System;
+﻿string input = Console.ReadLine();
 
-namespace _1._Reverse_a_String
+Stack<char> reveresedInput = new Stack<char>();
+
+foreach (var symbol in input)
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+   reveresedInput.Push(symbol);
+}
+
+while (reveresedInput.Count > 0)
+{
+    Console.Write(reveresedInput.Pop());
 }
