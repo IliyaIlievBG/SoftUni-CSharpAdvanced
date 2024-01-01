@@ -3,6 +3,7 @@
 string command = Console.ReadLine().ToLower();
 
 Stack<int> numbersToSum = new Stack<int>(numbers);
+
 while (command != "end")
 {
     string[] currentCommand = command.Split(' ', StringSplitOptions.RemoveEmptyEntries);
@@ -34,7 +35,7 @@ foreach (var num in numbersToSum)
 {
     sum += num;
 }
-Console.WriteLine(sum);
+Console.WriteLine($"Sum: {sum}");
 static bool CheckCurrentCommand(int numbersToRemove, Stack<int> numbersToSum)
 {
     return numbersToRemove > numbersToSum.Count ? false : true;
