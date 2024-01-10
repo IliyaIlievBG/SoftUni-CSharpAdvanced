@@ -11,11 +11,13 @@ while (car != "end")
     {
         for (int i = 0; i < carsToGoOnGreen; i++)
         {
-            if (carsAtTheTrafficLight.Count > 0)
+            if (carsAtTheTrafficLight.Count == 0)
             {
-                Console.WriteLine($"{carsAtTheTrafficLight.Dequeue()} passed!");
-                passedCars++;
+                break;
             }
+
+            Console.WriteLine($"{carsAtTheTrafficLight.Dequeue()} passed!");
+            passedCars++;
         }
     }
     else
