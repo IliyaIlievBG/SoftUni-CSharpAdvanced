@@ -40,6 +40,6 @@ while (cups.Count > 0 && bottles.Count > 0)
     }
 }
 
-string output = cups.Count() > 0 ? $"Cups : {string.Join(' ', cups)}" : $"Bottles: {string.Join(' ', bottles)}";
+string output = cups.Count() > 0 ? $"Cups: {string.Join(' ', cups)}" : $"Bottles: {string.Join(' ', bottles)}";
 Console.WriteLine(output);
 Console.WriteLine($"Wasted litters of water: {wastedWater}");

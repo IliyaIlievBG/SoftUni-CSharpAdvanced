@@ -1,8 +1,4 @@
-﻿//A green light cycle goes as follows:
-// •	During the green light, cars will enter and exit the crossroads one by one.
-// •	During the free window, cars will only exit the crossroads.
-
-int greenLightInSeconds = int.Parse(Console.ReadLine());
+﻿int greenLightInSeconds = int.Parse(Console.ReadLine());
 int freeWindowDuration = int.Parse(Console.ReadLine());
 
 string input = Console.ReadLine();

@@ -1,6 +1,4 @@
-﻿using System.Threading.Channels;
-
-int bulletPrice = int.Parse(Console.ReadLine());
+﻿int bulletPrice = int.Parse(Console.ReadLine());
 int gunBarrelSize = int.Parse(Console.ReadLine());
 
 int[] samsBullets = Console.ReadLine()
