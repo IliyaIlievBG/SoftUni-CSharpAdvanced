@@ -15,9 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.CountSymbol", "5.CountSym
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Wardrobe", "6. Wardrobe\6. Wardrobe.csproj", "{355A255B-37C2-4A20-87FA-A2C919957E41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. TheVLogger", "7. TheVLogger\7. TheVLogger.csproj", "{1723AC72-4D62-43D0-848F-BB58A17A9C3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7. TheVLogger", "7. TheVLogger\7. TheVLogger.csproj", "{1723AC72-4D62-43D0-848F-BB58A17A9C3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Ranking", "8. Ranking\8. Ranking.csproj", "{8A1328CB-2DF2-4B89-87E8-ECB7198EEDAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8. Ranking", "8. Ranking\8. Ranking.csproj", "{8A1328CB-2DF2-4B89-87E8-ECB7198EEDAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9. ExResults", "9. ExResults\9. ExResults.csproj", "{EA27672B-1437-40E5-9B42-21279FF01050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. ForceBook", "10. ForceBook\10. ForceBook.csproj", "{22AAD40B-7390-4701-92E8-20A82D71F207}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{8A1328CB-2DF2-4B89-87E8-ECB7198EEDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A1328CB-2DF2-4B89-87E8-ECB7198EEDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A1328CB-2DF2-4B89-87E8-ECB7198EEDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA27672B-1437-40E5-9B42-21279FF01050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA27672B-1437-40E5-9B42-21279FF01050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA27672B-1437-40E5-9B42-21279FF01050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA27672B-1437-40E5-9B42-21279FF01050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22AAD40B-7390-4701-92E8-20A82D71F207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22AAD40B-7390-4701-92E8-20A82D71F207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22AAD40B-7390-4701-92E8-20A82D71F207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22AAD40B-7390-4701-92E8-20A82D71F207}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
