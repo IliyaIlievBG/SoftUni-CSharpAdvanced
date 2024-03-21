@@ -11,7 +11,10 @@ while (command != "Lumpawaroo")
         string user = GetDataFromCurrentCommand(currentCommand, 1);
         string side = GetDataFromCurrentCommand(currentCommand, 0);
 
-        AddUser(sides, side, user);
+        if (!sides.Any(x => x.Value.Contains(user)))
+        {
+            AddUser(sides, side, user);
+        }
     }
     else
     {
